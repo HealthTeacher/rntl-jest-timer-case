@@ -1,0 +1,27 @@
+{
+  "name": "rntl-jest-timer-case",
+  "version": "0.1.0",
+  "description": "Test case for Jest fake timers with react-native-testing-libary.",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-native": "^0.63.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/runtime": "^7.11.2",
+    "@testing-library/react-native": "^7.0.1",
+    "babel-jest": "^26.3.0",
+    "jest": "^26.4.0",
+    "metro-react-native-babel-preset": "^0.62.0",
+    "react-test-renderer": "^16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
